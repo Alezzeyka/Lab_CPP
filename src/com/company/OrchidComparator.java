@@ -1,8 +1,10 @@
 package com.company;
 
+import com.company.entity.Orchids;
+
 import java.util.Comparator;
 
-public class OrchidComparator implements Comparator<Orchids> {
+/*public class OrchidComparator implements Comparator<Orchids> {
     public int compare(Orchids a, Orchids b)
     {
         if (a.get_RootLightning()>b.get_RootLightning())
@@ -13,3 +15,4 @@ public class OrchidComparator implements Comparator<Orchids> {
             return 0;
     }
 }
+*/

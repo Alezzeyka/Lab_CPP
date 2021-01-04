@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.entity.Plant;
+
 import java.util.Iterator;
 
 public class PlantList implements IPlantList<Plant>, Iterable<Plant> {

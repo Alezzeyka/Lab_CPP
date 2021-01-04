@@ -1,14 +1,6 @@
-package com.company;
+package com.company.entity;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.Scanner;
-import java.util.Comparator;
 
 public class Cactus extends Flowering {
     int _QuillLength;

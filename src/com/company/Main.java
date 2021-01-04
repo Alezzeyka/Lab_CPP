@@ -8,12 +8,14 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Random r = new Random();
         LabHandler LabHandler = new LabHandler();
         //LabHandler.Lab2(scan,r);
-        LabHandler.Lab3();
+        //LabHandler.Lab3();
+        LabHandler.Lab4(scan,r);
     }
 }

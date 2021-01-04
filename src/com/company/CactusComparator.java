@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.entity.Cactus;
+
 import java.util.Comparator;
 
 public class CactusComparator implements Comparator<Cactus> {
