@@ -42,6 +42,16 @@ import java.lang.Comparable;
        this._Sort_Id=sort.get_Id();
        this._Age= r.nextInt(10);
     }
+     public Plant(String Title,int Soil,int potType,int fertilizer,int sort,int family,Random r)
+     {
+         this._Title= Title;
+         this._Family_Id=family;
+         this._FertilizerType_Id=fertilizer;
+         this._PotType_Id=potType;
+         this._SoilType_Id=Soil;
+         this._Sort_Id=sort;
+         this._Age= r.nextInt(10);
+     }
     @Override
     public String toString()
     {

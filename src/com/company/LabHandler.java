@@ -58,12 +58,11 @@ public class LabHandler {
 
         dao.addSort(sort1);dao.addSort(sort2);dao.addSort(sort3);
 
-        Plant plant1 = new Plant("Plant1",soil1,PotType1,Fertilizer1,sort1,family1,random);
-        Plant plant2 = new Plant("Plant2",soil2,PotType2,Fertilizer2,sort2,family2,random);
-        Plant plant3 = new Plant("Plant3",soil3,PotType3,Fertilizer3,sort3,family3,random);
+        Plant plant1 = new Plant("Plant1",10,10,10,10,10,random);
+        Plant plant2 = new Plant("Plant2",11,11,11,11,11,random);
+        Plant plant3 = new Plant("Plant3",12,12,12,12,12,random);
 
         dao.addPlant(plant1);dao.addPlant(plant2);dao.addPlant(plant3);
-
         System.out.printf("All plants in DB\n");
         LinkedList<Plant> list = dao.getPlant();
         System.out.printf("%10S|%10S|%10S|%10S|%10S|%10S|%10S|%10S\n","Id","Title","Age","Family","Fert.","Pot","Soil","Sort");
